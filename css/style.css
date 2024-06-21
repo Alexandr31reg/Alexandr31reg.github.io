@@ -221,27 +221,27 @@ span {
 
     0%,
     20% {
-        content: 'Фотограф';
+        content: 'Beta 4';
     }
 
     21%,
     40% {
-        content: "UI / UX Designer";
+        content: "Beta 4";
     }
 
     41%,
     60% {
-        content: "Graphic Designer";
+        content: "Beta 4";
     }
 
     61%,
     80% {
-        content: "Content Manager";
+        content: "Beta 4";
     }
 
     81%,
     100% {
-        content: "Software Tester";
+        content: "Beta 4";
     }
 }
 
