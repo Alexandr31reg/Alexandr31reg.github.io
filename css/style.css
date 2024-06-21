@@ -547,11 +547,11 @@ span {
 }
 
 @media (max-width:895px) {
-    #menu-icon {
+    /* #menu-icon {
         display: block;
-    }
+    } */
 
-    .navbar {
+    /* .navbar {
         position: absolute;
         top: 100%;
         right: -100%;
@@ -573,15 +573,21 @@ span {
     }
 
     .navbar .open {
-        right: 2%;
+        right: 2%; */
     }
 
     .navbar a {
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
+        /* display: block; */
+        /* font-size: 2rem; */
+        /* margin: 3rem 0; */
+        /* color: white; */
+        /* transition: all .50s ease; */
+        font-size: 1.8rem;
         color: white;
-        transition: all .50s ease;
+        margin-left: 4rem;
+        font-weight: 500;
+        transition: 0.3s ease-in-out;
+        border-bottom: 3px solid transparent;
     }
 
     .home {
