@@ -326,7 +326,7 @@ span {
 }
 
 .about-content .text-animation span::before {
-    content: 'Фотограф';
+    content: 'Beta 4';
     color: var(--main-color);
     animation: words 20s infinite;
 }
@@ -534,7 +534,7 @@ span {
     }
 
     section {
-        padding: 10rem 3% 2rem;
+        padding: 5rem 3% 2rem;
     }
 
     .services {
