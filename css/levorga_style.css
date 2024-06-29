@@ -576,6 +576,9 @@ header.sticky{
     .btn{
         padding: 10px 23px;
     }
+    .nav-btn{
+        display: none;
+    }
 }
 @media(max-width:820px){
     .services-content{
