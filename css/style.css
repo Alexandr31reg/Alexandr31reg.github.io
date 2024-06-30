@@ -195,7 +195,7 @@ span {
 }
 
 .text-animation span::before {
-    content: 'Фотограф';
+    content: 'Beta 4';
     color: var(--main-color);
     animation: words 20s infinite;
 }
