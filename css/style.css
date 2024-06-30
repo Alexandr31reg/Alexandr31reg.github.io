@@ -195,7 +195,7 @@ span {
 }
 
 .text-animation span::before {
-    content: 'Beta 4';
+    content: 'Beta 5';
     color: var(--main-color);
     animation: words 20s infinite;
 }
@@ -221,27 +221,27 @@ span {
 
     0%,
     20% {
-        content: 'Beta 4';
+        content: 'Beta 5';
     }
 
     21%,
     40% {
-        content: "Beta 4";
+        content: "Beta 5";
     }
 
     41%,
     60% {
-        content: "Beta 4";
+        content: "Beta 5";
     }
 
     61%,
     80% {
-        content: "Beta 4";
+        content: "Beta 5";
     }
 
     81%,
     100% {
-        content: "Beta 4";
+        content: "Beta 5";
     }
 }
 
