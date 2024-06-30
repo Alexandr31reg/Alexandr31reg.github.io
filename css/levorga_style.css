@@ -751,14 +751,19 @@ header.sticky{
         flex-direction: column;
         gap: 30px;
     }
+    .text-animation span{
+        font-size: 20px;
+        font-weight: 600;
+        min-width: 250px;
+    }
+    .text-animation span::after {
+        width: calc(100% + 8px);
+        height: calc(100% + 10px);
+    }
 }
 @media(max-width:570px){
     :root{
         --h1-font: 3rem;
         --h2-font: 2rem;
-    }
-    .text-animation{
-        font-size: 20px;
-        min-width: 150px;
     }
 }
