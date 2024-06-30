@@ -549,6 +549,76 @@ header.sticky{
     cursor: pointer;
 }
 
+.contact{
+    background: var(--second-bg-color);
+}
+.contact-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact-content h5{
+    font-family: "Caveat", cursive;
+    font-size: 32px;
+    color: var(--main-color);
+    margin-bottom: 10px;
+}
+.contact-content h3{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.contact-content p{
+    font-size: var(--p-font);
+    color: var(--other-color);
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+.social-icon a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0 8px;
+    width: 45px;
+    height: 45px;
+    background: var(--main-color);
+    color: var(--text-color);
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all .6s ease;
+}
+.social-icon a:hover{
+    transform: translateY(-9px);
+    border: 1px solid #303033;
+    background: transparent;
+}
+
+.footer{
+    padding: 15px 13%;
+    background: var(--second-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.copyright p{
+    font-size: var(--p-font);
+    font-weight: 400;
+    color: var(--other-color);
+}
+.scroll-top i{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--main-color);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: var(--text-color);
+}
+
 @media(max-width:1775px){
     header{
         padding: 20px 5%;
@@ -556,9 +626,9 @@ header.sticky{
     section{
         padding: 90px 5% 80px;
     }
-    /* .footer{
+    .footer{
         padding: 10px 5%;
-    } */
+    }
     header.sticky{
         padding: 13px 5%;
     }
@@ -586,9 +656,9 @@ header.sticky{
     section{
         padding: 70px 3% 70px;
     }
-    /* .footer{
+    .footer{
         padding: 10px 3%;
-    } */
+    }
     header.sticky{
         padding: 13px 3%;
     }
@@ -686,5 +756,9 @@ header.sticky{
     :root{
         --h1-font: 3rem;
         --h2-font: 2rem;
+    }
+    .text-animation{
+        font-size: 20px;
+        min-width: 150px;
     }
 }
