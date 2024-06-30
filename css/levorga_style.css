@@ -296,7 +296,7 @@ span {
 
 header.sticky{
     padding: 8px 13%;
-    background: transparent;
+    background: rgb(0, 0, 0, 0.6);
     backdrop-filter: blur(20px);
 }
 
