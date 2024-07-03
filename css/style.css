@@ -766,7 +766,7 @@ header.sticky{
 }
 @media(max-width:570px){
     :root{
-        --h1-font: 3rem;
+        --h1-font: 2rem;
         --h2-font: 2rem;
     }
     .navlist a{
