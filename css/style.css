@@ -742,9 +742,6 @@ header.sticky{
     }
 }
 @media(max-width:820px){
-    .navlist a{
-        font-size: 1.8rem;
-    }
     .services-content{
         grid-template-columns: repeat(auto-fit, minmax(300px, auto));       
     }
